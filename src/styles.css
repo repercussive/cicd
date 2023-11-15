@@ -11,7 +11,7 @@
 body {
   display: grid;
   place-items: center;
-  background-color: #191920;
+  background-color: rgb(29, 25, 32);
   color: white;
   font-family: 'Work Sans', sans-serif;
 }
@@ -36,8 +36,8 @@ input[type=submit] {
 button,
 input[type=submit] {
   color: #fff;
-  background-color: #4296ab;
-  border: 2px solid #60a2b3;
+  background-color: #ab42ab;
+  border: 2px solid #b360b3;
   transition: background-color 80ms;
   cursor: pointer;
 }
