@@ -51,7 +51,7 @@ export class TodoList {
   }
 
   checkIsEntireListComplete() {
-    const listHasTasks = this.tasks.length < 0
+    const listHasTasks = this.tasks.length > 0
     const allTasksAreCompleted = this.countTotalTasks() === this.countCompleteTasks()
     return listHasTasks && allTasksAreCompleted
   }
